@@ -9,8 +9,8 @@ import shutil
 import logging
 from concurrent.futures import ThreadPoolExecutor
 
-src_dir = r'D:\360安全浏览器下载\Automated_bounty_Hunter\相关软件\nuclei-templates\Nuclei-Templates-Collection-main\Nuclei-Templates-Collection-main\community-templates\community-templates'
-dst_dir = r'D:\360安全浏览器下载\Automated_bounty_Hunter\相关软件\nuclei-templates\Nuclei-Templates-Collection-main\Nuclei-Templates-Collection-main\community-templates\nuclei-templates'
+src_dir = r'D:\abc'
+dst_dir = r'D:\bak'
 
 overwrite = False
 exclude = ['temp', 'tmp.txt']
